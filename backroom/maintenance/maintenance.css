@@ -1,0 +1,60 @@
+a:link {  color: #FF009C}
+a:hover {  color: #FAA434}
+.b {  font-weight: bold}
+td {  font-size: 12px}
+.txt10 {  font-size: 10px}
+.txt10b {  font-size: 10px; font-weight: bold}
+.txt10g {  font-size: 10px; line-height: 16px}
+.menu10m {  font-size: 10px; margin-left: 15px}
+.txt12 {  font-size: 12px}
+.txt12b {  font-size: 12px; font-weight: bold}
+.txt12g {  font-size: 12px; line-height: 18px}
+.txt12grayb {  font-size: 12px; font-weight: bold; color: #333333}
+.txt14b {  font-size: 14px; font-weight: bold}
+.pinkb {  font-weight: bold; color: FF009C}
+.wht {  color: #FFFFFF}
+.whtb {  font-weight: bold; color: #FFFFFF}
+.red {  color: #F50000}
+.bule {  color: #0066CC}
+.buleb {  color: #336699; font-weight: bold}
+.navy {  color: #000099}
+.orgb {  font-weight: bold; color: #EC6A13}
+.super12 {  font-size: 12px; color: #CC0000}
+.super14 { font-size: 14px; color: #CC0000; font-weight: bold }
+.txt10whtb {  font-size: 10px; font-weight: bold; color: #FFFFFF}
+.txt12orgb {  font-size: 12px; font-weight: bold; color: #EC6A13}
+.txt10org {  font-size: 10px; color: #EC6A13}
+.txt10orgb {  font-size: 10px; font-weight: bold; color: #EC6A13}
+.txt14greenb {  font-size: 14px; font-weight: bold; color: #3C9C63}
+.txt12redb {  font-size: 12px; font-weight: bold; color: #AE0000}
+.txt10greenb {  font-size: 10px; font-weight: bold; color: #009966}
+.reddark {  color: #AE0000}
+.reddarkb {  font-weight: bold; color: #AE0000}
+.txt12yllowb {  font-size: 12px; font-weight: bold; color: #ffffcc}
+.txt14redb {  font-size: 14px; font-weight: bold; color: #AE0000}
+.green {  color: #65AB52}
+.redb {  font-weight: bold; color: #F50000}
+.txt12reddarkg {  font-size: 12px; line-height: 18px; color: #AE0000}
+.redlightdark {  color: #FA1000}
+.redlightdarkb {  color: #FA1000; font-weight: bold }
+.txt14orb {  font-size: 14px; font-weight: bold; color: #EC6A13}
+.txt12greenb { font-size: 12px; font-weight: bold; color: #3C9C63 }
+.txt12brnb {  font-size: 12px; font-weight: bold; color: #A3753C}
+.txt10brnb {  font-size: 10px; font-weight: bold; color: #A3753C}
+.text10gray {  font-size: 10px; color: #CCCCCC}
+.txt14pinkb {  font-size: 14px; font-weight: bold; color: #FF019C}
+.txt10redlightdark {  font-size: 10px; color: #FA1000}
+.main {  font-size: 14px; font-weight: bold; color: #FF0000}
+.textbox { height:20px;background-color:white;border:1 black solid }
+.textbox_white { height:20px;background-color:white;border:1 white solid }
+.textarea { background-color:white;border:1 black solid }
+.textareaP { background-color:white;border:1 black solid;font-family:‚l‚r ‚oƒSƒVƒbƒN;font-size: 12px;width:395 }
+.titlebar{color:black;}
+td.title{color:black;
+td.info{color:black;font-align:}
+div.title{color:black;}
+p.title{color:black;}
+p.info{color:black;font-align:}
+.warn {  font-size: 12px; font-weight: bold; color: red}
+.right_align_textbox{text-align:right;height:20px;background-color:white;border:1 black solid}
+.right_align_textbox_white{text-align:right;height:20px;background-color:white;border:1 white solid}

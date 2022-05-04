@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.0//EN"
+          "http://jakarta.apache.org/struts/dtds/struts-config_1_0.dtd">
+<struts-config>
+  <!-- ========== Data Source Configuration =============================== -->
+  <data-sources>
+    <data-source>
+        <set-property property="autoCommit" value="false" />
+        <set-property property="description" value="DESC" />
+        <set-property property="driverClass" value="oracle.jdbc.driver.OracleDriver" />
+        <set-property property="maxCount" value="4" />
+        <set-property property="minCount" value="2" />
+       	<set-property property="password" value="something" />
+	<set-property property="url" value="jdbc:oracle:thin:@192.168.10.101:1521:lmdb" />
+        <set-property property="user" value="lmjuser" />
+        <!--<set-property property="password" value="tiger" />-->
+       	<!--<set-property property="url" value="jdbc:oracle:thin:@192.168.10.102:1521:lmdb1" />-->
+       	<!--<set-property property="user" value="scott" />-->
+    </data-source>
+  </data-sources>
+  <!-- ========== Form Bean Definitions =================================== -->
+  <form-beans>
+<!-- Maintenance -->
+	<form-bean name="LogonForm" type="jp.co.lastminute.maintenance.LogonForm"/>
+  </form-beans>
+  <!-- ========== Global Forward Definitions ============================== -->
+  <!-- ========== Global Forward Definitions ============================== -->
+  <global-forwards>
+    <forward   name="logoff"               path="/logoff.do"/>
+    <forward   name="logon"                path="/logon.jsp"/>
+    <forward   name="success"              path="/index.jhtml"/>
+    <forward name="fail"                   path="/index.jhtml"/>
+  </global-forwards>
+  <!-- ========== Action Mapping Definitions ============================== -->
+  <action-mappings>
+<!-- Maintenance -->	
+	<action path="/maintenance/logon"
+               	type="jp.co.lastminute.maintenance.LogonAction"
+             	name="LogonForm"
+	   	scope="request"
+	   	input="/maintenance/logon.jsp">
+		<forward name="success"		 path="/maintenance/index.jsp"/>
+		<forward name="system_fail"      path="/maintenance/system_error.jsp"/>
+    	</action>
+  </action-mappings>
+</struts-config>

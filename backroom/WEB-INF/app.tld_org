@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE taglib
+        PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN"
+        "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+
+
+
+<taglib>
+  <tlibversion>1.0</tlibversion>
+  <jspversion>1.1</jspversion>
+  <shortname>Application Tag Library</shortname>
+  <uri>http://jakarta.apache.org/taglibs/struts-example-1.0</uri>
+  <info>
+    This tag library contains functionality specific to the Struts
+    Example Application.
+  </info>
+  <tag>
+    <name>checkLogon</name>
+    <tagclass>jp.co.lastminute.common.taglib.CheckLogonTag</tagclass>
+    <bodycontent>empty</bodycontent>
+    <info>
+      CHECK LOGIN
+    </info>
+        <!-- Forte4J_TLDX:  This comment contains code generation information. Do not delete.
+        <tldx>
+            <packagename>jp.co.lastminute.common.taglib</packagename>
+            <findparent>FALSE</findparent>
+        </tldx>
+        -->
+    <attribute>
+      <name>name</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+            <!-- Forte4J_TLDX:  This comment contains code generation information. Do not delete.
+            <tldx>
+                <type>String</type>
+                <IsReferenceID>FALSE</IsReferenceID>
+                <ReferencesTag>FALSE</ReferencesTag>
+                <ReferenceScope>Session</ReferenceScope>
+                <ReferencesTagReferentFirst>TRUE</ReferencesTagReferentFirst>
+            </tldx>
+            -->
+    </attribute>
+    <attribute>
+      <name>page</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+            <!-- Forte4J_TLDX:  This comment contains code generation information. Do not delete.
+            <tldx>
+                <type>String</type>
+                <IsReferenceID>FALSE</IsReferenceID>
+                <ReferencesTag>FALSE</ReferencesTag>
+                <ReferenceScope>Session</ReferenceScope>
+                <ReferencesTagReferentFirst>TRUE</ReferencesTagReferentFirst>
+            </tldx>
+            -->
+    </attribute>
+  </tag>
+  <tag>
+    <name>chkCard</name>
+    <tagclass>jp.co.lastminute.common.taglib.CheckCardTag</tagclass>
+        <bodycontent>JSP</bodycontent>
+    <info>
+      CHECK CARD
+    </info>
+        <!-- Forte4J_TLDX:  This comment contains code generation information. Do not delete.
+        <tldx>
+            <packagename>jp.co.lastminute.common.taglib</packagename>
+            <findparent>FALSE</findparent>
+        </tldx>
+        -->
+    <attribute>
+      <name>name</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+            <!-- Forte4J_TLDX:  This comment contains code generation information. Do not delete.
+            <tldx>
+                <type>String</type>
+                <IsReferenceID>FALSE</IsReferenceID>
+                <ReferencesTag>FALSE</ReferencesTag>
+                <ReferenceScope>Session</ReferenceScope>
+                <ReferencesTagReferentFirst>TRUE</ReferencesTagReferentFirst>
+            </tldx>
+            -->
+    </attribute>
+    <attribute>
+      <name>page</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+            <!-- Forte4J_TLDX:  This comment contains code generation information. Do not delete.
+            <tldx>
+                <type>String</type>
+                <IsReferenceID>FALSE</IsReferenceID>
+                <ReferencesTag>FALSE</ReferencesTag>
+                <ReferenceScope>Session</ReferenceScope>
+                <ReferencesTagReferentFirst>TRUE</ReferencesTagReferentFirst>
+            </tldx>
+            -->
+    </attribute>
+  </tag>
+  <tag>
+    <name>chkProductSend</name>
+    <tagclass>jp.co.lastminute.common.taglib.CheckProductSendTag</tagclass>
+        <bodycontent>JSP</bodycontent>
+    <info>
+      CHECK ProductSend
+    </info>
+        <!-- Forte4J_TLDX:  This comment contains code generation information. Do not delete.
+        <tldx>
+            <packagename>jp.co.lastminute.common.taglib</packagename>
+            <findparent>FALSE</findparent>
+        </tldx>
+        -->
+    <attribute>
+      <name>name</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+            <!-- Forte4J_TLDX:  This comment contains code generation information. Do not delete.
+            <tldx>
+                <type>String</type>
+                <IsReferenceID>FALSE</IsReferenceID>
+                <ReferencesTag>FALSE</ReferencesTag>
+                <ReferenceScope>Session</ReferenceScope>
+                <ReferencesTagReferentFirst>TRUE</ReferencesTagReferentFirst>
+            </tldx>
+            -->
+    </attribute>
+    <attribute>
+      <name>page</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+            <!-- Forte4J_TLDX:  This comment contains code generation information. Do not delete.
+            <tldx>
+                <type>String</type>
+                <IsReferenceID>FALSE</IsReferenceID>
+                <ReferencesTag>FALSE</ReferencesTag>
+                <ReferenceScope>Session</ReferenceScope>
+                <ReferencesTagReferentFirst>TRUE</ReferencesTagReferentFirst>
+            </tldx>
+            -->
+    </attribute>
+    <attribute>
+      <name>cart</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+            <!-- Forte4J_TLDX:  This comment contains code generation information. Do not delete.
+            <tldx>
+                <type>String</type>
+                <IsReferenceID>FALSE</IsReferenceID>
+                <ReferencesTag>FALSE</ReferencesTag>
+                <ReferenceScope>Session</ReferenceScope>
+                <ReferencesTagReferentFirst>TRUE</ReferencesTagReferentFirst>
+            </tldx>
+            -->
+    </attribute>
+  </tag>
+  <tag>
+    <name>chkOrder</name>
+    <tagclass>jp.co.lastminute.common.taglib.CheckOrder</tagclass>
+        <bodycontent>JSP</bodycontent>
+    <info>
+      CHECK Order
+    </info>
+    <attribute>
+      <name>name</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>page</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+  </tag>
+  <tag>
+    <name>chkOnlyLogin</name>
+    <tagclass>jp.co.lastminute.common.taglib.CheckOnlyLogonTag</tagclass>
+        <bodycontent>JSP</bodycontent>
+    <info>
+      CHECK Order
+    </info>
+    <attribute>
+      <name>name</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>page</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+  </tag>
+  <tag>
+    <name>needThrowable</name>
+    <tagclass>jp.co.lastminute.common.taglib.CheckThrowAbleTag</tagclass>
+        <bodycontent>JSP</bodycontent>
+    <info>
+      NEED THROWABLE
+    </info>
+        <!-- Forte4J_TLDX:  This comment contains code generation information. Do not delete.
+        <tldx>
+            <packagename>jp.co.lastminute.common.taglib</packagename>
+            <findparent>FALSE</findparent>
+        </tldx>
+        -->
+    <attribute>
+      <name>name</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+            <!-- Forte4J_TLDX:  This comment contains code generation information. Do not delete.
+            <tldx>
+                <type>String</type>
+                <IsReferenceID>FALSE</IsReferenceID>
+                <ReferencesTag>FALSE</ReferencesTag>
+                <ReferenceScope>Session</ReferenceScope>
+                <ReferencesTagReferentFirst>TRUE</ReferencesTagReferentFirst>
+            </tldx>
+            -->
+    </attribute>
+    <attribute>
+      <name>page</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+            <!-- Forte4J_TLDX:  This comment contains code generation information. Do not delete.
+            <tldx>
+                <type>String</type>
+                <IsReferenceID>FALSE</IsReferenceID>
+                <ReferencesTag>FALSE</ReferencesTag>
+                <ReferenceScope>Session</ReferenceScope>
+                <ReferencesTagReferentFirst>TRUE</ReferencesTagReferentFirst>
+            </tldx>
+            -->
+    </attribute>
+  </tag>
+  <tag>
+    <name>create</name>
+    <tagclass>jp.co.lastminute.basket.CreateAtListView</tagclass>
+    <bodycontent>empty</bodycontent>
+    <info>
+      CREATE Collection Object
+    </info>
+        <!-- Forte4J_TLDX:  This comment contains code generation information. Do not delete.
+        <tldx>
+            <packagename>jp.co.lastminute.basket</packagename>
+            <findparent>FALSE</findparent>
+        </tldx>
+        -->
+    <attribute>
+            <name>name</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+            <!-- Forte4J_TLDX:  This comment contains code generation information. Do not delete.
+            <tldx>
+                <type>String</type>
+
+                <IsReferenceID>FALSE</IsReferenceID>
+                <ReferencesTag>FALSE</ReferencesTag>
+                <ReferenceScope>Session</ReferenceScope>
+
+
+                <ReferencesTagReferentFirst>TRUE</ReferencesTagReferentFirst>
+            </tldx>
+            -->
+    </attribute>
+        <attribute>
+            <name>object</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+            <!-- Forte4J_TLDX:  This comment contains code generation information. Do not delete.
+            <tldx>
+                <type>Collection</type>
+
+
+
+                <IsReferenceID>FALSE</IsReferenceID>
+                <ReferencesTag>FALSE</ReferencesTag>
+                <ReferenceScope>Session</ReferenceScope>
+
+
+
+
+
+
+                <ReferencesTagReferentFirst>TRUE</ReferencesTagReferentFirst>
+            </tldx>
+            -->
+        </attribute>
+  </tag>
+  <tag>
+    <name>throw</name>
+    <tagclass>jp.co.lastminute.basket.ThrowAtListView</tagclass>
+    <bodycontent>empty</bodycontent>
+    <info>
+      THROW Sub_Order List
+    </info>
+        <!-- Forte4J_TLDX:  This comment contains code generation information. Do not delete.
+        <tldx>
+            <packagename>jp.co.lastminute.basket</packagename>
+            <findparent>FALSE</findparent>
+        </tldx>
+        -->
+    <attribute>
+            <name>name</name>
+      <required>false</required>
+      <rtexprvalue>true</rtexprvalue>
+            <!-- Forte4J_TLDX:  This comment contains code generation information. Do not delete.
+            <tldx>
+                <type>String</type>
+
+                <IsReferenceID>FALSE</IsReferenceID>
+                <ReferencesTag>FALSE</ReferencesTag>
+                <ReferenceScope>Session</ReferenceScope>
+
+
+                <ReferencesTagReferentFirst>TRUE</ReferencesTagReferentFirst>
+            </tldx>
+            -->
+    </attribute>
+        <attribute>
+            <name>object</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <!-- Forte4J_TLDX:  This comment contains code generation information. Do not delete.
+            <tldx>
+                <type>Collection</type>
+
+
+
+                <IsReferenceID>FALSE</IsReferenceID>
+                <ReferencesTag>FALSE</ReferencesTag>
+                <ReferenceScope>Session</ReferenceScope>
+
+
+
+
+
+
+                <ReferencesTagReferentFirst>TRUE</ReferencesTagReferentFirst>
+            </tldx>
+            -->
+        </attribute>
+  </tag>
+    <tag>
+        <name>extract</name>
+        <tagclass>jp.co.lastminute.basket.ExtractListView</tagclass>
+        <bodycontent>empty</bodycontent>
+        <info>set Sub_Order Collection and get Sub_order Collection</info>
+        <!-- Forte4J_TLDX:  This comment contains code generation information. Do not delete.
+        <tldx>
+            <packagename>jp.co.lastminute.basket</packagename>
+            <findparent>FALSE</findparent>
+            <parenttype></parenttype>
+            <parentvariable></parentvariable>
+        </tldx>
+        -->
+        <attribute>
+            <name>subno</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <!-- Forte4J_TLDX:  This comment contains code generation information. Do not delete.
+            <tldx>
+                <type>String</type>
+                <javaVariable></javaVariable>
+                <IsReferenceID>FALSE</IsReferenceID>
+                <ReferencesTag>FALSE</ReferencesTag>
+                <ReferenceScope>Session</ReferenceScope>
+                <ReferencesTagType></ReferencesTagType>
+                <ReferencesTagVariable></ReferencesTagVariable>
+                <ReferencesTagReferentFirst>TRUE</ReferencesTagReferentFirst>
+            </tldx>
+            -->
+        </attribute>
+        <attribute>
+            <name>protype</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <!-- Forte4J_TLDX:  This comment contains code generation information. Do not delete.
+            <tldx>
+                <type>String</type>
+                <javaVariable></javaVariable>
+                <IsReferenceID>FALSE</IsReferenceID>
+                <ReferencesTag>FALSE</ReferencesTag>
+                <ReferenceScope>Session</ReferenceScope>
+                <ReferencesTagType></ReferencesTagType>
+                <ReferencesTagVariable></ReferencesTagVariable>
+                <ReferencesTagReferentFirst>TRUE</ReferencesTagReferentFirst>
+            </tldx>
+            -->
+        </attribute>
+        <attribute>
+            <name>odrfile</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <!-- Forte4J_TLDX:  This comment contains code generation information. Do not delete.
+            <tldx>
+                <type>String</type>
+                <javaVariable></javaVariable>
+                <IsReferenceID>FALSE</IsReferenceID>
+                <ReferencesTag>FALSE</ReferencesTag>
+                <ReferenceScope>Session</ReferenceScope>
+                <ReferencesTagType></ReferencesTagType>
+                <ReferencesTagVariable></ReferencesTagVariable>
+                <ReferencesTagReferentFirst>TRUE</ReferencesTagReferentFirst>
+            </tldx>
+            -->
+        </attribute>
+        <attribute>
+            <name>prodcd</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <!-- Forte4J_TLDX:  This comment contains code generation information. Do not delete.
+            <tldx>
+                <type>String</type>
+                <javaVariable></javaVariable>
+                <IsReferenceID>FALSE</IsReferenceID>
+                <ReferencesTag>FALSE</ReferencesTag>
+                <ReferenceScope>Session</ReferenceScope>
+                <ReferencesTagType></ReferencesTagType>
+                <ReferencesTagVariable></ReferencesTagVariable>
+                <ReferencesTagReferentFirst>TRUE</ReferencesTagReferentFirst>
+            </tldx>
+            -->
+        </attribute>
+        <attribute>
+            <name>agtprodcd</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <!-- Forte4J_TLDX:  This comment contains code generation information. Do not delete.
+            <tldx>
+                <type>String</type>
+                <javaVariable></javaVariable>
+                <IsReferenceID>FALSE</IsReferenceID>
+                <ReferencesTag>FALSE</ReferencesTag>
+                <ReferenceScope>Session</ReferenceScope>
+                <ReferencesTagType></ReferencesTagType>
+                <ReferencesTagVariable></ReferencesTagVariable>
+                <ReferencesTagReferentFirst>TRUE</ReferencesTagReferentFirst>
+            </tldx>
+            -->
+        </attribute>
+        <attribute>
+            <name>agtcd</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <!-- Forte4J_TLDX:  This comment contains code generation information. Do not delete.
+            <tldx>
+                <type>String</type>
+                <javaVariable></javaVariable>
+                <IsReferenceID>FALSE</IsReferenceID>
+                <ReferencesTag>FALSE</ReferencesTag>
+                <ReferenceScope>Session</ReferenceScope>
+                <ReferencesTagType></ReferencesTagType>
+                <ReferencesTagVariable></ReferencesTagVariable>
+                <ReferencesTagReferentFirst>TRUE</ReferencesTagReferentFirst>
+            </tldx>
+            -->
+        </attribute>
+        <attribute>
+            <name>title</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <!-- Forte4J_TLDX:  This comment contains code generation information. Do not delete.
+            <tldx>
+                <type>String</type>
+                <javaVariable></javaVariable>
+                <IsReferenceID>FALSE</IsReferenceID>
+                <ReferencesTag>FALSE</ReferencesTag>
+                <ReferenceScope>Session</ReferenceScope>
+                <ReferencesTagType></ReferencesTagType>
+                <ReferencesTagVariable></ReferencesTagVariable>
+                <ReferencesTagReferentFirst>TRUE</ReferencesTagReferentFirst>
+            </tldx>
+            -->
+        </attribute>
+        <attribute>
+            <name>buyprop</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <!-- Forte4J_TLDX:  This comment contains code generation information. Do not delete.
+            <tldx>
+                <type>String</type>
+                <javaVariable></javaVariable>
+                <IsReferenceID>FALSE</IsReferenceID>
+                <ReferencesTag>FALSE</ReferencesTag>
+                <ReferenceScope>Session</ReferenceScope>
+                <ReferencesTagType></ReferencesTagType>
+                <ReferencesTagVariable></ReferencesTagVariable>
+                <ReferencesTagReferentFirst>TRUE</ReferencesTagReferentFirst>
+            </tldx>
+            -->
+        </attribute>
+        <attribute>
+            <name>price</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <!-- Forte4J_TLDX:  This comment contains code generation information. Do not delete.
+            <tldx>
+                <type>String</type>
+                <javaVariable></javaVariable>
+                <IsReferenceID>FALSE</IsReferenceID>
+                <ReferencesTag>FALSE</ReferencesTag>
+                <ReferenceScope>Session</ReferenceScope>
+                <ReferencesTagType></ReferencesTagType>
+                <ReferencesTagVariable></ReferencesTagVariable>
+                <ReferencesTagReferentFirst>TRUE</ReferencesTagReferentFirst>
+            </tldx>
+            -->
+        </attribute>
+        <attribute>
+            <name>agtaction</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <!-- Forte4J_TLDX:  This comment contains code generation information. Do not delete.
+            <tldx>
+                <type>String</type>
+                <javaVariable></javaVariable>
+                <IsReferenceID>FALSE</IsReferenceID>
+                <ReferencesTag>FALSE</ReferencesTag>
+                <ReferenceScope>Session</ReferenceScope>
+                <ReferencesTagType></ReferencesTagType>
+                <ReferencesTagVariable></ReferencesTagVariable>
+                <ReferencesTagReferentFirst>TRUE</ReferencesTagReferentFirst>
+            </tldx>
+            -->
+        </attribute>
+        <attribute>
+            <name>mkdate</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <!-- Forte4J_TLDX:  This comment contains code generation information. Do not delete.
+            <tldx>
+                <type>String</type>
+                <javaVariable></javaVariable>
+                <IsReferenceID>FALSE</IsReferenceID>
+                <ReferencesTag>FALSE</ReferencesTag>
+                <ReferenceScope>Session</ReferenceScope>
+                <ReferencesTagType></ReferencesTagType>
+                <ReferencesTagVariable></ReferencesTagVariable>
+                <ReferencesTagReferentFirst>TRUE</ReferencesTagReferentFirst>
+            </tldx>
+            -->
+        </attribute>
+    </tag>
+	<tag>
+	   <name>CartcheckLogon</name>
+	      <tagclass>jp.co.lastminute.cart.taglib.CheckLogonTag</tagclass>
+		  <bodycontent>empty</bodycontent>
+	    <info>
+		     CHECK LOGIN
+	    </info>
+	   <attribute>
+	   	 <name>name</name>
+	     <required>false</required>
+	     <rtexprvalue>true</rtexprvalue>
+	   </attribute>
+       <attribute>
+	     <name>page</name>
+	     <required>false</required>
+	     <rtexprvalue>true</rtexprvalue>
+      </attribute>
+   </tag>
+   <tag>
+      <name>CheckCancellLoginTag</name>
+	    <tagclass>jp.co.lastminute.cart.taglib.CheckCancellLoginTag</tagclass>
+	    <bodycontent>empty</bodycontent>
+	    <info>CHECKCANCELLLOGIN</info>
+	    <attribute>
+	    	<name>name</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+	    </attribute>
+		<attribute>
+	    	<name>page</name>
+	    	<required>false</required>
+	    	<rtexprvalue>true</rtexprvalue>
+	    </attribute>
+  </tag>
+</taglib>
